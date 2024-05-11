@@ -13,7 +13,7 @@ describe("tests", () => {
     await page.goto("https://qamid.tmweb.ru/client/hall.php");
     await clickElement(
       page,
-      "body > main > section:movie(1) > div:movie-seances__hall(1) > ul > li:movie-seances__time-block(2) > a"
+      "body > main > section:movie(1) > div:movie-seances__hall(1) > ul > li:movie-seances__time-block(2) > a'"
     );
   });
   test("Buy one ticket", async () => {
