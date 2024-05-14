@@ -26,31 +26,31 @@ Given("user is on {string} page", async function (string) {
 When("user selects a time", async function () {
   return clickElement(
     this.page,
-    "body > main > section:nth-child(1) > div:nth-child(2) > ul > li:nth-child(3) > a"
+    "body > main > section:nth-child(2) > div:nth-child(2) > ul > li:nth-child(2) > a"
   );
 });
 When("user selects a place", async function () {
   return clickElement(
     this.page,
-    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(3)"
+    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(2) > span:nth-child(4)"
   );
 });
 When("user selects a place 1", async function () {
   return clickElement(
     this.page,
-    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(4)"
+    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(6) > span:nth-child(7)"
   );
 });
 When("user selects a place 2", async function () {
   return clickElement(
     this.page,
-    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(5)"
+    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(6) > span:nth-child(5)"
   );
 });
 When("user selects a place 3", async function () {
   return clickElement(
     this.page,
-    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(6)"
+    "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(6) > span:nth-child(8)"
   );
 });
 When("user presses the register button", async function () {
