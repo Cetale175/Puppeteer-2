@@ -14,7 +14,6 @@ describe("tests", () => {
     await clickElement(page, "[data-seance-time-stamp='1715792400']");
   });
   test("Buy one ticket", async () => {
-    await clickElement(page, "body > nav > a:nth-child(2)");
     await clickElement(
       page,
       "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(2) > span:nth-child(4)"
